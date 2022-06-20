@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+                content="width=device-width, initial-scale=1.0">
+        <title>Get a Pic with a Click</title>
+        <!-- Normalize CSS file irons out some difference between browsers -->
+        <link rel="stylesheet" 
+                href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- Google Fonts-->
+        <link 
+                href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/> <!-- 'nano' theme -->
+
+        <!-- CSS File-->
+        <link rel="stylesheet" 
+                href="./css/style.css">
+        
+        <script src="https://kit.fontawesome.com/c9965d23bb.js" crossorigin="anonymous"></script>
+    </head>
+    <!-- ==================================================================================== -->
+    <!-- =============================== June 2022 Release 1.0 =============================== -->
+    <!-- ==================================================================================== -->
+    <body>
+        <div class="container">
+            <h1>Get a Random Pic with a Click</h1>
+
+            <div class="button-container">
+                <button id="btn">Click Me</button>
+            </div>
+    
+            <div class="picker-container">
+                <div class="select"><h2>Select a Color:</h2></div>
+                <div class="color-picker"></div>
+            </div>
+            
+            <div class="image-container">
+                <a id="image-link" href="#">
+                    <img alt="", id="unsplash-image" />
+                </a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="image-details"><a href="https://www.unsplash.com">Source of all images is Unsplash</a></p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body> 
+</html> 
