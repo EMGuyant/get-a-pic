@@ -30,7 +30,7 @@ body {
 
   .image-details {
     background-color: var(--clr-dark);
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -39,7 +39,9 @@ body {
   }
 
   .image-details a {
-    color: #CCCCCC;
+    color: #404358;
+    font-size: 12px;
+    font-style: italic;
   }
 
   .image-details a:hover {
