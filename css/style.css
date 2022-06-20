@@ -25,7 +25,6 @@ body {
   }
 
   h1 {
-    font-size: 56px;
     color: var(--clr-dark);
   }
 
@@ -46,7 +45,11 @@ body {
   .image-details a:hover {
     color: var(--clr-light);
   }
-
+  img {
+    max-width: 900px;
+    width: 60vw;
+    height: auto;
+  }
   .button-container {
     padding: 15px;
   }
