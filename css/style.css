@@ -9,7 +9,6 @@
   --clr-dark: #000000;
   --clr-dark2: #061930;
   --clr-accent: #9CF6FB;
-  --clr-accent2: #865125;
 }
 body {
     background-color: var(--clr-dark2);
